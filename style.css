@@ -1,0 +1,54 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: white;
+}
+#container{
+    position: relative;
+    top: 100px;
+    left: 480px;
+    width: 30vw;
+    min-width: 300px;
+    height: 70vh;
+    border: 2px solid gray;
+    display: grid;
+    box-shadow: 2px 2px 5px black ,-2px -2px 5px black;
+    border-radius: 10px;
+}
+#login-from{
+    display: grid;
+    padding: 20px;
+    border-radius: 10px;
+}
+.group{
+    display: flex;
+    flex-direction: column;
+}
+.group label{
+    font-size: 20px;
+    color: rgb(11, 170, 233);
+}
+.group input{
+    height: 40px;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid darkcyan;
+    font-size: 15px;
+    padding: 5px;
+}
+.group span{
+   color: red;
+   margin: 2px;
+}
+#login-from button{
+    height:40px ;
+    background-color: black;
+    color: rgb(230, 154, 15);
+    border-radius: 5px;
+    width: 80px;
+    position: relative;
+    left: 130px;
+    top: 10px;
+    font-size:18px ;
+}
